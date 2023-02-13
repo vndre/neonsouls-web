@@ -1,0 +1,25 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: #000;
+  overflow: hidden;
+  position: relative;
+}
+
+#txt {
+  position: absolute;
+  margin: auto;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#canvas {
+  display: block;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "vite-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "alea": "^1.0.1",
+    "gl-matrix": "^3.4.3",
+    "simplex-noise": "^4.0.1"
+  }
+}
