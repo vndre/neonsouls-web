@@ -20,6 +20,15 @@ body {
   flex-direction: column;
 }
 
+#txt img {
+  -webkit-user-drag: none;
+}
+
+#txt p {
+  font-family: monospace;
+  user-select: none;
+}
+
 #canvas {
   display: block;
 }
